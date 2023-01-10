@@ -1,0 +1,96 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 9 de January de 2023 16:40
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.1
+WORDPRESS:	6.1.1
+PHP INFO:	8.2.0 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 92MB
+[CTRL DUP ARCIVE] PACKAGE AS NEW ID 1 SAVED | STATUS:0
+[DUP ARCHIVE] BUILDING DATABASE
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+[PHP ERR][ISSUE] MSG:Creation of dynamic property DUP_Database::$sameNameTableExists is deprecated [CODE:8192|FILE:C:\xampp\htdocs\wordpress\wp-content\plugins\duplicator\classes\package\class.pack.database.php|LINE:758]
+do_action('wp_ajax_duplicator_duparchive_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Database->rewriteTableNameAs, DUP_Handler::error, DUP_Handler::getMessage
+SQL CREATED: 20230109_mpmuebles_3e36c61622a20cc33381_20230109163943_database.sql
+SQL FILE SIZE: 6.48MB (6797128)
+SQL FILE TIME: 2023-01-09 16:40:37
+SQL RUNTIME: 10.83 sec.
+[DUP ARCHIVE] VALIDATING DATABASE
+[DUP ARCHIVE] DONE DATABASE
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/wordpress
+ARCHIVE FILE: 20230109_mpmuebles_3e36c61622a20cc33381_20230109163943_archive.daf
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	146.49MB
+STATS:	Dirs 2,013 | Files 11,514 | Total 13,527
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+building installer
+[DUP ARCHIVE] DONE ARCHIVE
+COMPRESSED SIZE: 55.19MB
+ARCHIVE RUNTIME: 343.67 sec.
+MEMORY STACK: 96MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] HAS COMPLETED CLOSING
+[DUP ARCHIVE] DUP ARCHIVE INTEGRITY CHECK
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 6.48MB
+INSTALLER FILE: 94.69KB
+ARCHIVE FILE: 55.19MB 
+RECUENTO ARCHIVOS/DIRECTORIOS ESPERADOS: 14,264
+RECUENTO ARCHIVOS/DIRECTORIOS ACTUALES: 14,265
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 343.85 sec.
+PEAK PHP MEMORY USED: 100MB
+DONE PROCESSING => 20230109_mpmuebles 2023-01-09 16:46:10
+

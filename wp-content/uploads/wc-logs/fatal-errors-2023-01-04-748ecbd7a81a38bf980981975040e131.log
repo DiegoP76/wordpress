@@ -1,0 +1,18 @@
+2023-01-04T21:33:26+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: float + string in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php:948
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php(529): WC_Admin_Post_Types->set_new_price(Object(WC_Product_Simple), 'regular')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php(326): WC_Admin_Post_Types->bulk_edit_save(425, Object(WC_Product_Simple))
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(308): WC_Admin_Post_Types->bulk_and_quick_edit_save_post(425, Object(WP_Post))
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php(290): do_action('woocommerce_pro...', 425, Object(WP_Post))
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WC_Admin_Post_Types->bulk_and_quick_edit_hook(425, Object(WP_Post))
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\post.php(4717): do_action('save_post', 425, Object(WP_Post), true)
+#10 C:\xampp\htdocs\wordpress\wp-includes\post.php(4819): wp_insert_post(Array, false, true)
+#11 C:\xampp\htdocs\wordpress\wp-admin\includes\post.php(653): wp_update_post(Array)
+#12 C:\xampp\htdocs\wordpress\wp-admin\edit.php(194): bulk_edit_posts(Array)
+#13 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php en la línea 948
+
